@@ -64,3 +64,26 @@ t-test-manufacturing-lot-2
 t-test-manufacturing-lot-3
 
 ![RStudio 4_3_2023 12_26_21 PM lot 3](https://user-images.githubusercontent.com/115948377/229571478-7549ce4f-bcb7-424e-94f0-2b80d88d600f.png)
+
+## Study Design: MechaCar vs Competition
+
+In this study, we aim to compare the performance of MechaCar vehicles against vehicles from other manufacturers in terms of fuel efficiency. Fuel efficiency is an important factor for many customers, particularly with rising gas prices. We will collect fuel efficiency data from competition car manufacturers over the last five years and use it to compare with MechaCar.
+
+### Metrics:
+We will collect data on the following metrics:
+
+* City and highway fuel efficiency (dependent variable)
+* Horsepower (independent variable)
+* AWD capabilities (independent variable)
+* MPG (gasoline efficiency) (independent variable)
+
+### Null and Alternative Hypotheses:
+The null hypothesis (Ho) states that on defined metrics, there is no statistically significant difference between MechaCar and the competitors. The alternative hypothesis (Ha) states that on defined metrics.
+
+### Statistical Tests:
+We will use a t-test to compare each MechaCar metric against the same metric from the competition data. A t-test is appropriate for this study because we are comparing means between two groups.
+
+### Data Needed:
+To run the statistical test, we need to collect fuel efficiency data from competition car manufacturers from the last five years. We also need to collect data on the independent variables - horsepower, vehicle weight, AWD capabilities, and MPG - for both MechaCar and the competition.
+
+Overall, this study will provide valuable insights into how MechaCar compares to its competitors in terms of fuel efficiency and help inform marketing and product development decisions
