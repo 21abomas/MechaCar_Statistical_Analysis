@@ -84,6 +84,8 @@ The null hypothesis (Ho) states that on defined metrics, there is no statistical
 We will use a t-test to compare each MechaCar metric against the same metric from the competition data. A t-test is appropriate for this study because we are comparing means between two groups.
 
 ### Data Needed:
-To run the statistical test, we need to collect fuel efficiency data from competition car manufacturers from the last five years. We also need to collect data on the independent variables - horsepower, vehicle weight, AWD capabilities, and MPG - for both MechaCar and the competition.
+To run the statistical test, we need to collect fuel efficiency data from competition car manufacturers. We also need to collect data on the independent variables - horsepowe, AWD capabilities, and MPG - for both MechaCar and the competition.
 
-Overall, this study will provide valuable insights into how MechaCar compares to its competitors in terms of fuel efficiency and help inform marketing and product development decisions
+### Resources
+* Data Source: MechaCar_mpg.csv, Suspension_Coil.csv
+* Software: RStudio
