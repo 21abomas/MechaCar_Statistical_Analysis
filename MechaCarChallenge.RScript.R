@@ -28,3 +28,15 @@ total_summary <- Suspension_Coil %>% summarize(mean_PSI = mean(PSI), median_PSI 
 # Use the group_by() and summarize() functions to create a lot_summary dataframe that shows the mean, median, variance, and standard deviation of the suspension coil's PSI column for each manufacturing lot.
 lot_summary <- Suspension_Coil %>% group_by(Manufacturing_Lot) %>% summarize(mean_PSI = mean(PSI), median_PSI = median(PSI), var_PSI = var(PSI), sd_PSI = sd(PSI))
 
+# Perform t-test on all manufacturing lots
+t.test(suspension_coil_df$PSI, mu = 1500)
+
+# Perform t-test on Manufacturing Lot 1
+t.test(subset(suspension_coil_df, Manufacturing_Lot == "Lot1")$PSI, mu = 1500)
+
+# Perform t-test on Manufacturing Lot 2
+t.test(subset(suspension_coil_df, Manufacturing_Lot == "Lot2")$PSI, mu = 1500)
+
+# Perform t-test on Manufacturing Lot 3
+t.test(subset(suspension_coil_df, Manufacturing_Lot == "Lot3")$PSI, mu = 1500)
+
